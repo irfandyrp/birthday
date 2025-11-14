@@ -6,14 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "export": "next build",
+    "preview:static": "npx serve out -p 3000 --single",
+    "update:name": "node scripts/update-android-strings.js",
+    "cap:sync": "npx cap sync android",
+    "cap:copy": "npx cap copy",
+    "cap:open": "npx cap open android",
+    "android:build": "cd android && .\\gradlew assembleDebug"
   },
   "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
+    "@fireworks-js/react": "^2.10.7",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.0.0",
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^11.11.17",
     "next": "16.0.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-audio-player": "^0.17.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "19.2.0",
+    "react-type-animation": "^3.2.0",
+    "tsparticles": "^3.0.0"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

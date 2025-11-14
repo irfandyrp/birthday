@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <!-- 
+        CATATAN: Nama di bawah ini diupdate otomatis dari config/birthday.ts
+        Setelah mengubah BIRTHDAY_NAME di config/birthday.ts, jalankan: node scripts/update-android-strings.js
+        Saat ini menggunakan: Mpii
+    -->
+    <string name="app_name">Birthday for Mpii</string>
+    <string name="title_activity_main">Birthday for Mpii</string>
+    <string name="package_name">com.example.birthday</string>
+    <string name="custom_url_scheme">com.example.birthday</string>
+</resources>
